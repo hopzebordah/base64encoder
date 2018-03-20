@@ -86,7 +86,7 @@ string getbase64_file(string filename)
     }    
     file.close();
 
-    // change trailing zeroes (As) to '='  
+    // change trailing zeroes (A)s to '='  
     for (int i=resultlen+1; i<resultlen+pad; i++)
         result[i] = '=';        
 
